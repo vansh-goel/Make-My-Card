@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+
+.box {
+    margin: 50px auto;
+    background-image: url('../images/bg.jpg');
+    width: 1004px;
+    height: 591px;
+}
+
+.data {
+    width: 35%;
+    color: #425F57;
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+
+.bar {
+    position: relative;
+    border: 2px solid #425F57;
+    left: 150px;
+    top: 100px;
+    width: 10%;
+}
+
+.info {
+    width: 40%;
+    position: relative;
+    top: 147px;
+    left: 600px;
+}
+
+.image-pfp {
+    position: relative;
+    top: -100px;
+    left: 260px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid black;
+}

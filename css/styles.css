@@ -55,6 +55,10 @@ body {
     top: 10px;
 }
 
+.btn-2 {
+    position: relative;
+    bottom: -32px;
+}
 
 /* Footer CSS  */
 

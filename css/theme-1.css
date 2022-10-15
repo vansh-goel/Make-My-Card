@@ -42,6 +42,7 @@ body {
 }
 
 .socials {
+    width: 40%;
     position: relative;
     left: 600px;
     top: 150px;

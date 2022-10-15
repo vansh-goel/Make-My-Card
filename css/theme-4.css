@@ -1,0 +1,77 @@
+body {
+    background-color: black;
+}
+
+.box {
+    margin: 50px auto;
+    background-image: url('../images/theme-4.jpg');
+    width: 1004px;
+    height: 591px;
+}
+
+.data {
+    width: 35%;
+    color: black;
+    position: relative;
+    top: 100px;
+    left: 600px;
+}
+
+.bar {
+    position: relative;
+    border: none;
+    border-top: 10px dotted grey;
+    left: 150px;
+    top: 120px;
+    width: 10%;
+}
+
+#bar-hr {
+    transform: rotate(90deg);
+    position: relative;
+    width: 35%;
+    top: 160px;
+    left: 0px;
+    border: none;
+    border-top: 5px solid black;
+}
+
+.info {
+    color: black;
+    width: 40%;
+    position: relative;
+    top: 110px;
+    left: 600px;
+}
+
+.image-pfp {
+    position: relative;
+    top: -170px;
+    left: 180px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid grey;
+}
+
+.socials {
+    width: 40%;
+    position: relative;
+    left: 600px;
+    top: 120px;
+}
+
+a {
+    /* text-decoration: underline; */
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+.icons {
+    position: relative;
+    top: -2px;
+    padding-right: 10px;
+    width: 35px;
+}

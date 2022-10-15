@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+}
+
+.box {
+    margin: 50px auto;
+    background-image: url('../images/theme-3.jpg');
+    width: 1004px;
+    height: 591px;
+}
+
+.data {
+    width: 35%;
+    color: black;
+    position: relative;
+    top: 100px;
+    left: 650px;
+}
+
+.bar {
+    position: relative;
+    border: none;
+    border-top: 10px dotted grey;
+    left: 200px;
+    top: 120px;
+    width: 10%;
+}
+
+.info {
+    color: black;
+    width: 40%;
+    position: relative;
+    top: 147px;
+    left: 650px;
+}
+
+.image-pfp {
+    position: relative;
+    top: -140px;
+    left: 160px;
+    width: 200px;
+    border-radius: 100%;
+    border: 10px solid grey;
+}
+
+.socials {
+    width: 40%;
+    position: relative;
+    left: 650px;
+    top: 150px;
+}
+
+a {
+    /* text-decoration: underline; */
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+.icons {
+    position: relative;
+    top: -2px;
+    padding-right: 10px;
+    width: 35px;
+}

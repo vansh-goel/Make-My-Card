@@ -34,9 +34,31 @@ body {
 
 .image-pfp {
     position: relative;
-    top: -100px;
+    top: -120px;
     left: 260px;
     width: 200px;
     border-radius: 100%;
     border: 10px solid black;
+}
+
+.socials {
+    position: relative;
+    left: 600px;
+    top: 150px;
+}
+
+a {
+    /* text-decoration: underline; */
+    color: #425F57;
+}
+
+a:hover {
+    color: black;
+}
+
+.icons {
+    position: relative;
+    top: -2px;
+    padding-right: 10px;
+    width: 35px;
 }

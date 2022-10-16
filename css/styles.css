@@ -60,6 +60,11 @@ body {
     bottom: -32px;
 }
 
+.btn-3 {
+    position: relative;
+    bottom: -48px;
+}
+
 /* Footer CSS  */
 
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,300italic,300);

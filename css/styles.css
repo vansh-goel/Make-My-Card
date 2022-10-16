@@ -55,9 +55,9 @@ body {
     top: 10px;
 }
 
-.btn-2 {
-    position: relative;
-    bottom: -32px;
+.btn-2{
+position:relative;
+margin-bottom:5px;
 }
 
 .btn-3 {

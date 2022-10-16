@@ -7,50 +7,382 @@
     <title>Make my Card</title>
   </head>
   <!-- Adding Google Fonts  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap"
+    rel="stylesheet"
+  />
   <!-- Adding Bootstrap  -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous"
+  />
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Adding CSS  -->
-  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/styles.css" />
+
   <body>
-    <h1 id="welcome">Welcome to Make My Card</h1>
-    
-    <div class="card" style="width: 18rem;">
-      <img src="https://img.freepik.com/free-vector/vibrant-summer-ombre-background-vector_53876-105765.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Theme-1</h5>
-        <p class="card-text">Checkout Our First Theme here and see if it's what you're looking for.</p>
-        <a href="buisnesscard.html" class="btn btn-primary">Take Me There</a>
-      </div>
+    <!-- NavBar  -->
+    <div class="nav-bar">
+      <nav class="navbar sticky-top navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href=""
+          ><img class="brand-img" src="images/pfp.jpg" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Join Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </div>
-    
-    <div class="card" style="width: 18rem;">
-      <img src="https://marketplace.canva.com/EAD2962NKnQ/2/0/1600w/canva-rainbow-gradient-pink-and-purple-zoom-virtual-background-_Tcjok-d9b4.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Theme-2</h5>
-        <p class="card-text">Checkout Our Second Theme here and see if it's what you're looking for.</p>
-        <a href="name-theme-1.html" class="btn btn-primary">Take Me There</a>
+
+    <!-- Carousel  -->
+
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="0"
+          class="active"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#demo"
+          data-bs-slide-to="2"
+        ></button>
       </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/c8.jpg"
+            alt="Los Angeles"
+            class="d-block"
+            style="width: 100%"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/c6.webp"
+            alt="Chicago"
+            class="d-block"
+            style="width: 100%"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/c7.jpg"
+            alt="New York"
+            class="d-block"
+            style="width: 100%"
+          />
+        </div>
+      </div>
+
+      <!-- Left and right controls/icons -->
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#demo"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+      </button>
     </div>
-    
-        <div class="card" style="width: 18rem;">
-      <img src="https://img.freepik.com/free-vector/vibrant-summer-ombre-background-vector_53876-105765.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Theme-3</h5>
-        <p class="card-text">Checkout Our First Theme here and see if it's what you're looking for.</p>
-        <a href="theme-3.html" class="btn btn-primary">Take Me There</a>
+
+    <!-- Theme Box  -->
+    <div class="theme-box row">
+      <div class="col-3 card" style="width: 18rem">
+        <img
+          class="box-img"
+          src="images/1.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Theme-1</h5>
+          <p class="card-text">
+            Checkout Our First Theme here and see if it's what you're looking
+            for.
+          </p>
+          <a href="final designed form/form.html" class="btn btn-primary">Take Me There</a>
+        </div>
+      </div>
+
+      <div class="col-3 card" style="width: 18rem">
+        <img
+          class="box-img"
+          src="images/2.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Theme-2</h5>
+          <p class="card-text">
+            Checkout Our Second Theme here and see if it's what you're looking
+            for.
+          </p>
+          <a href="final designed form/form.html" class="btn btn-2 btn-primary">Take Me There</a>
+        </div>
+      </div>
+
+      <div class="col-3 card" style="width: 18rem">
+        <img
+          class="box-img"
+          src="images/3.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Theme-3</h5>
+          <p class="card-text">
+            Checkout Our First Theme here and see if it's what you're looking
+            for.
+          </p>
+          <a href="final designed form/form.html" class="btn btn-2 btn-primary">Take Me There</a>
+        </div>
+      </div>
+
+      <div class="col-3 card" style="width: 18rem">
+        <img
+          class="box-img"
+          src="images/4.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Theme-4</h5>
+          <p class="card-text">
+            Checkout Our First Theme here and see if it's what you're looking
+            for.
+          </p>
+          <a href="final designed form/form.html" class="btn btn-2 btn-primary">Take Me There</a>
+        </div>
       </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
-      <img src="https://img.freepik.com/free-vector/vibrant-summer-ombre-background-vector_53876-105765.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Theme-4</h5>
-        <p class="card-text">Checkout Our First Theme here and see if it's what you're looking for.</p>
-        <a href="theme-4.html" class="btn btn-primary">Take Me There</a>
+    <!-- Footer    -->
+
+    <div class="container-fluid mt-3">
+      <h2 class="text-center" style="color:white;">TEAM</h2>
+
+      <div class="row">
+        <div class="col p-3 bg-black text-white">
+          <aside class="profile-card">
+            <header>
+              <!-- here’s the avatar -->
+              <a href="https://tutsplus.com">
+                <img src="https://i.pravatar.cc/300" />
+              </a>
+
+              <!-- the username -->
+              <h1>Dhruvi</h1>
+
+              <!-- and role or location -->
+              <h2>DEVELOPER</h2>
+            </header>
+
+            <!-- bit of a bio; who are you? -->
+            <div class="profile-bio">
+              <p>
+                Terence is an avid reader of science fiction, especially
+                anything to do with aliens and tweed jackets. Most weekends, he
+                can be found cataloguing his collection of rodent skeletons.
+              </p>
+            </div>
+
+            <!-- some social links to show off -->
+            <ul class="profile-social-links">
+              <!-- twitter - el clásico  -->
+              <li>
+                <a href="https://twitter.com/dhruvicodes">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
+                  />
+                </a>
+              </li>
+
+              <!-- codepen - your codepen profile-->
+              <li>
+                <a href="https://codepen.io/tutsplus">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-codepen.svg"
+                  />
+                </a>
+              </li>
+
+              <!-- envato – use this one to link to your marketplace profile -->
+              <li>
+                <a href="https://envato.com">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-envato.svg"
+                  />
+                </a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col p-3 bg-dark text-white">
+          <aside class="profile-card">
+            <header>
+              <!-- here’s the avatar -->
+              <a href="https://tutsplus.com">
+                <img src="https://i.pravatar.cc/300" />
+              </a>
+
+              <!-- the username -->
+              <h1>John Doe</h1>
+
+              <!-- and role or location -->
+              <h2>DEVELOPER</h2>
+            </header>
+
+            <!-- bit of a bio; who are you? -->
+            <div class="profile-bio">
+              <p>
+                Terence is an avid reader of science fiction, especially
+                anything to do with aliens and tweed jackets. Most weekends, he
+                can be found cataloguing his collection of rodent skeletons.
+              </p>
+            </div>
+
+            <!-- some social links to show off -->
+            <ul class="profile-social-links">
+              <!-- twitter - el clásico  -->
+              <li>
+                <a href="https://twitter.com/tutsplus">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
+                  />
+                </a>
+              </li>
+
+              <!-- codepen - your codepen profile-->
+              <li>
+                <a href="https://codepen.io/tutsplus">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-codepen.svg"
+                  />
+                </a>
+              </li>
+
+              <!-- envato – use this one to link to your marketplace profile -->
+              <li>
+                <a href="https://envato.com">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-envato.svg"
+                  />
+                </a>
+              </li>
+            </ul>
+          </aside>
+        </div>
+        <div class="col p-3 bg-dark text-white">
+          <aside class="profile-card">
+            <header>
+              <!-- here’s the avatar -->
+              <a href="https://tutsplus.com">
+                <img src="https://i.pravatar.cc/300" />
+              </a>
+
+              <!-- the username -->
+              <h1>John Doe</h1>
+
+              <!-- and role or location -->
+              <h2>DEVELOPER</h2>
+            </header>
+
+            <!-- bit of a bio; who are you? -->
+            <div class="profile-bio">
+              <p>
+                Terence is an avid reader of science fiction, especially
+                anything to do with aliens and tweed jackets. Most weekends, he
+                can be found cataloguing his collection of rodent skeletons.
+              </p>
+            </div>
+
+            <!-- some social links to show off -->
+            <ul class="profile-social-links">
+              <!-- twitter - el clásico  -->
+              <li>
+                <a href="https://twitter.com/tutsplus">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-twitter.svg"
+                  />
+                </a>
+              </li>
+
+              <!-- codepen - your codepen profile-->
+              <li>
+                <a href="https://codepen.io/tutsplus">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-codepen.svg"
+                  />
+                </a>
+              </li>
+
+              <!-- envato – use this one to link to your marketplace profile -->
+              <li>
+                <a href="https://envato.com">
+                  <img
+                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/social-envato.svg"
+                  />
+                </a>
+              </li>
+            </ul>
+          </aside>
+        </div>
       </div>
     </div>
+     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.min.js" integrity="sha384-ODmDIVzN+pFdexxHEHFBQH3/9/vQ9uori45z4JjnFsRydbmQbmL5t1tQ0culUzyK" crossorigin="anonymous"></script>
+
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
   </body>
 </html>

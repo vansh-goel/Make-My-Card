@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+}
+.visting-card{
+    margin: 50px auto;
+    background-image: url("images/background-img.png");
+    background-size:cover ;
+    width: 1004px;
+    height: 591px;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 20px; */
+}
+
+.main-heading{
+    font-family: 'Marcellus', serif;
+    color: #e9c46a;
+    margin-top: 105px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.role{
+    width: 150px;
+    background-color: #afa167;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 30px;
+    margin: 20px auto;
+    text-transform: capitalize;
+}
+.social-table{
+    width: 50%;
+    margin: 0 auto;
+}
+.logo{
+    width: 40px;
+    padding: 5px;
+    margin: 0 auto;
+}
+
+.name{
+    font-size: 24px;
+    text-transform: capitalize;
+    
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    color: #e9c46a;
+    text-decoration: none;
+}
+.vertical-line{
+    margin-top: 50px;
+    border-left: 6px solid #afa167;
+    height: 400px;
+}
+.avatar{
+    margin-top: 35%;
+    width: 300px;
+    border: 5px solid #afa167;
+}

@@ -5,6 +5,10 @@
 }
 body {
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .container {
   background-image: url("../images/theme-2.png");
@@ -13,6 +17,7 @@ body {
   align-items: center;
   height: 700px;
   background-repeat: no-repeat;
+  width: 500px;
 }
 .full {
   margin-top: 180px;

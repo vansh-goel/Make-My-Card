@@ -10,7 +10,7 @@
 		$sql = "INSERT INTO userdetails (uname, post, mno,pfp)VALUES ('$uname', '$post', '$mno','$pfp')";
 
 		if (mysqli_query($conn, $sql)) {
-		 	header("Location: display.php");
+		 	header("Location: dhruvi.php");
 		} else {
 		  echo "Error: " . $sql . "<br>" . mysqli_error($conn);
 		}
